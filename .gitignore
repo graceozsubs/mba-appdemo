@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.*
+.env.mcp
+*.env
+
+# Downloaded binaries — too large for git; re-download via scripts/setup-mcp.ps1
+bin/
+
+# Node
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Worktrees (managed externally as sibling dirs)
+# ~/source/MBAAppdemo-wt-*/
+
+# Logs
+*.log
+npm-debug.log*

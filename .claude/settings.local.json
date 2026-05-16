@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .claude/agents docs/plans docs/plans/archive docs/risks docs/runbooks docs/architecture)",
+      "Bash(git init *)"
+    ]
+  }
+}
